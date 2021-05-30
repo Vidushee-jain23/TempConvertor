@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #16222a, #3a6073);
+    /*background: linear-gradient(to right, #f0c27b, #4b1248);*/ 
+}
+h1{
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 27px;
+    font-family:'Mate SC', serif;
+    color: snow;
+}
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.insideD{
+    width: 280px;
+    height: 345px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0,0,0,.1);
+    box-shadow: 0 0 14px rgba(0,0,0,1);
+    color:#fff;
+    padding-top: 40px;
+}
+input{
+    width: 200px;
+    margin-top: 25px;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-family: 'Chela One', cursive;
+    border-radius: 30px;
+    font-size: 20px;
+    border: 1px solid #fff;
+    padding: 13px;
+    box-shadow: 0 0 8px #fff;
+    transition: box-shadow 0.5s ease;
+}
+input[placeholder]:focus{
+    color: #fff;
+}
+input:focus{
+    box-shadow: 0 0 13px #fff;
+    transition: all .3s;
+}
+.btn{
+    display: inline-block;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+#blue
+{
+    background-color: linear-gradient(to right, #16222a, #3a6073);
+}
+#voilet
+{
+    background-color: #4b1248;
+    margin-right: 10px;
+}
+#bgSwitch{
+    text-align: right;
+}
